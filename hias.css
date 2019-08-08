@@ -34,15 +34,34 @@ nav{
     
 }
 
-.jumbotron .btn{
+/* .jumbotron .btn{
     background-color:rgb(72, 52, 78) ;
     border:none;
     border-radius: 25px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 45px;
+    padding-left: 45px;
     margin-top: 40px;
-    height: 50px;
+    height: 70px;
+    font-size: 40px;
+} */
+
+.jumbotron .btn{
+    background: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
+    background-size: cover;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+.jumbotron .btn:hover{
+   
     font-size: 30px;
+}
+
+.jumbotron .btn a:active{
+color: black;
 }
 
 
@@ -73,4 +92,19 @@ footer{
 .footer-copyright{
     color: white;
 
+}
+
+.container{
+    text-align: center;
+   
+}
+
+.container i {
+    color: white;
+    font-size: 50px;
+}
+
+.container i:hover{
+    
+    font-size: 40px;
 }
