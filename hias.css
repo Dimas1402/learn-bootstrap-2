@@ -65,6 +65,7 @@ color: black;
 }
 
 
+
 .card-body{
     background: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
     background-size: cover;
@@ -107,4 +108,11 @@ footer{
 .container i:hover{
     
     font-size: 40px;
+}
+
+.navbar-toggler{
+    background: url("https://img.icons8.com/ios-glyphs/30/000000/insert-button.png");
+    background-size: 5px;
+    height: -10px;
+    
 }
